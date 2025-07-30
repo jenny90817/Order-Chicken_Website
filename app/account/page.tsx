@@ -11,7 +11,7 @@ import { Account } from "../_settings/interfaces";
 import useGetAccounts from "./useAccount";
 
 
-export default function Account() {
+export default function Accounts() {
     // 假設您在這裡使用了 useState，確保這裡有設置 setUserName
     const [userName, setUserName] = useState<string | null>(null);
     const auth = getAuth(app);
